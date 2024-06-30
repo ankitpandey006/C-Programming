@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <ankit.h>
 
 int find_lcm(int a, int b, int c ){
     if(c % a == 0 && c % b == 0){
