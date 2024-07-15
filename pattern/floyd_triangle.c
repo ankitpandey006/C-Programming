@@ -2,7 +2,6 @@
 int main()
 {
     int n;
-    int a = 1;
      printf("enter a size of triangle\n");
     scanf("%d",&n);
     for (int i = 1; i <= n; i++)
@@ -10,10 +9,10 @@ int main()
         
         for (int j = 1; j <= i; j++)
         {
-            printf("%d ", a);
-                a++;
+            printf(" ");
+                
         }
-        printf("\n");
+        printf("%d \n", i);
     }
     return 0;
 }
